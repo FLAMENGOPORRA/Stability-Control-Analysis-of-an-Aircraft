@@ -33,7 +33,7 @@ Details: This calculation uses the aerodynamic and geometric parameters of the w
 Figure is from Perkins and Hage, S&C Text Book can be found on page 215
 
     4. Multhopp's Method vs Gilruth and White's Method
-Objective: To determine the change in nose up pitching momement of with angle of attack as a coefficient (Cmαf). The goal was to obtain a Cm
+Objective: To determine the change in nose up pitching momement of with angle of attack as a coefficient (C<sup>mαf</sup>). The goal was to obtain a Cm
 
 Details: Multhopp's method is preffered over Munk's since it takes into account the upwash (destabalizing) and downwash (stabalizing). It was comapred against Gilruth and White's method which also takes into account the upwash and down wash but doesn't take into account its affect on the fuselage. Multhopp's method can also be applied to engine naccels whilst the others can't.
 ![image](https://github.com/FLAMENGOPORRA/Stability-Analysis-of-an-Aircraft/assets/139566575/4eac584d-7c57-43e0-87cd-bda94aee9345)
