@@ -1,8 +1,6 @@
 # Stability Analysis of an Aircraft
 This repository contains code developed for the Stability Control Analysis of a D18 Beechcraft aircraft. 
-Note: The Datcom manual was extensively used as a reference for the necessary graphs and data.
-
-
+The repository will be split into multiple folders which are Imgs, Proj Code, and Hand Calculations. Imgs will contain the images that can be found here in the readme section. Proj Code will contain the mainscript and objects. The decision to use object oriented programming OOP was due to the interdepencies through the calculations. OOP code gives the ability to encapsulate each step of the analysis independently of one another, so all the Planform Paramerterization can be done at once instead of having one function per parameter. Lastly, the repository as seen now is not finalized since there is not stick/rudder-free analysis done since it wasn't required in the project given and the report needs to me fixed and included.
 
 Topics Covered:
 
