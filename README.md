@@ -3,6 +3,7 @@ This repository contains code developed for the Stability Control Analysis of a 
 Note: The Datcom manual was extensively used as a reference for the necessary graphs and data.
 Topics Covered:
 
+<details>
   <summary>1. Planform Geometric Parameterization
   Objective: Determine the aircraft's basic physical geometry, such as the theoretical wing area or the span of the aircraft. 
 
@@ -10,7 +11,7 @@ Topics Covered:
 ![image](https://github.com/FLAMENGOPORRA/Stability-Analysis-of-an-Aircraft/assets/139566575/abda759f-1d2e-4260-893f-d7716156a6a9)
 
 Figure is from Datcom Manual page 2.2.2-1</summary>
-
+</details>
 
 
   2. Planform Aerodynamic Parameterization
