@@ -8,9 +8,8 @@ Topics Covered:
   Objective: Determine the aircraft's basic physical geometry, such as the theoretical wing area or the span of the aircraft. 
 
   Details: The PlanformParameterization object in the code is designed specifically for lifting surfaces like wings or horizontal tails (HT).
-![image](https://github.com/FLAMENGOPORRA/Stability-Analysis-of-an-Aircraft/assets/139566575/abda759f-1d2e-4260-893f-d7716156a6a9)
-
-Figure is from Datcom Manual page 2.2.2-1
+![](Imgs/PlanformParameters.PNG)
+## Fig 1. Datcom Manual page 2.2.2-1
 </details>
 
 <details>
@@ -19,9 +18,9 @@ Figure is from Datcom Manual page 2.2.2-1
 Objective: Apply aerodynamic parameterization to all planforms, including but not limited to HT, Vertical Tails (VT), Canards, etc.   
 
 Details: The code adjusts 2D (lower-case subscripts) aerodynamic parameters to 3D (upper-case subscripts). Experimental data, such as the lift curve slope, the coefficient of moment about the aerodynamic center, the zero lift angle of attack, and the aerodynamic center, were obtained from "Theories of Wing Sections" by Abbot and Von Doenhoff or the Datcom Manual. Afterwards twist, compressibility, sweep, and aspect ratio were taken into account to shift parameters from 2D to 3D.
-![image](https://github.com/FLAMENGOPORRA/Stability-Analysis-of-an-Aircraft/assets/139566575/d6c1c491-9da0-4db1-bfe6-98a6950e63df)
+![](Imgs/Aero2dto3d.PNG)
 
-Figure is from Perkins and Hage, S&C Text Book can be found on page 23 
+## Fig 2. Perkins and Hage, S&C Text Book page 23 
 </details>
 
 <details>
@@ -29,10 +28,10 @@ Figure is from Perkins and Hage, S&C Text Book can be found on page 23
 Objective: Calculate the actual downwash gradient (dϵ/dα) on an aircraft.
 
 Details: This calculation uses the aerodynamic and geometric parameters of the wing and horizontal tail to determine the downwash effect experienced by the tail due to the wing's presence. It considers the incidence angles of both the wing and the tail to provide an accurate representation of the downwash effect based on the aircraft's geometry. 
-![image](https://github.com/FLAMENGOPORRA/Stability-Analysis-of-an-Aircraft/assets/139566575/a3822832-8c46-4ddd-a22b-f62576bb10d2) 
+![](Imgs/Downwash.PNG)
 
 
-Figure is from Perkins and Hage, S&C Text Book can be found on page 215
+## Fig 3. Perkins and Hage, S&C Text Book page 215
 </details>
 
 <details>
@@ -40,7 +39,7 @@ Figure is from Perkins and Hage, S&C Text Book can be found on page 215
 Objective: To determine the change in nose up pitching momement of with angle of attack as a coefficient (C<sub>mαf</sub>). The goal was to obtain a C<sub>mαf</sub> of -0.01 representing the aircraft has 10% stability.
 
 Details: Multhopp's method is preffered over Munk's since it takes into account the upwash (destabalizing) and downwash (stabalizing). It was comapred against Gilruth and White's method which also takes into account the upwash and down wash but doesn't take into account its affect on the fuselage. Multhopp's method can also be applied to engine naccels whilst the others can't.
-![image](https://github.com/FLAMENGOPORRA/Stability-Analysis-of-an-Aircraft/assets/139566575/4eac584d-7c57-43e0-87cd-bda94aee9345)
+![](Imgs/Multhopps.PNG)
 
-Figure is from Perkins and Hage, S&C Text Book can be found on page 227
+## Fig 4. Perkins and Hage, S&C Text Book page 227
 </details>
