@@ -1,6 +1,9 @@
-# Stability-Analysis-of-an-Aircraft
+# Stability Analysis of an Aircraft
 This repository contains code developed for the Stability Control Analysis of a D18 Beechcraft aircraft. 
 Note: The Datcom manual was extensively used as a reference for the necessary graphs and data.
+
+
+
 Topics Covered:
 
 <details>
@@ -65,12 +68,72 @@ Fig 4. Perkins and Hage, S&C Text Book page 227
 
 Objective: Determine the stick-fixed neutral point based off both (C<sub>mαf</sub>) (G&W's and Multhopp's). 
 
-Details: The stick-fixed neutral point is a location on the aircraft where the change in pitching moment with respect to Aoa is 0, when the pilot is holding the yoke giving it the name stick fixed vs stick free. For a stick free analysis the elevators and their trims would need to be taken into account as well. A glider config will be analyzed first and will have the most aft neutral point. When more power is added the neutral point will move fwd and being the most fwd when at full power. The range limitations of the center of gravity (CG) is dependent on the range of the neutral point through its whole flight envelope. Which is why doing weight and balance on an aircraft for pre-flight is very important since it can have serious affects on the aircrafts performance.
+Details: The stick-fixed neutral point is a location on the aircraft where the change in pitching moment with respect to AoA is 0, when the pilot is holding the yoke giving it the name stick fixed vs stick free. For a stick free analysis the elevators and their trims would need to be taken into account as well. A glider config will be analyzed first and will have the most aft neutral point. When more power is added the neutral point will move fwd and being the most fwd when at full power. The range limitations of the center of gravity (CG) is dependent on the range of the neutral point through its whole flight envelope. Which is why doing weight and balance on an aircraft for pre-flight is very important since it can have serious affects on the aircrafts performance.
 
 ![](Imgs/CGLimits.PNG)
 
 Fig 5. Perkins and Hage, S&C Text Book page 247
+</details>
 
 
+<details>
   
+<summary>6. Power Effects</summary>
+
+Objective: Determine the new stick-fixed neutral points for the windmilling power and full power case.
+
+Details: In section 5, it was mentioned that as we turn on and increase the power the neutral points will have a tendency to move fwd along the aircraft's Mean Aerodynamic Chord (MAC). Another affect is also the increase in downwash at the HT if it is within the streamline tube of the propeller slipstream or jet wash (not in a streamline tube). Knowing where the neutral point is at different power setting helps the engineer in determing how the fuel system and it's management system should be designed. Reason being is that displacing the fuel in the aircraft allows CG to shift to the appropriate location during different phases of flights or flight conditions.
+
+![](Imgs/ImmersedTop.PNG) 
+
+Fig 6. Prof. Greiner's Notes
+
+![](Imgs/ImmersideSide.PNG) 
+
+Fig 7. Prof. Greiner's Notes
+</details>
+
+
+<details>
+
+<summary>7. Side Force Gradient</summary>
+
+Objective: Determine the Side Force Gradient based off Wing-Body Interactions, VT interactions, and Props Effects with rudder fixed stability.
+
+Details: An aircraft has a VT and Rudder control and trim to combat the side forces that can cause the aircraft to yaw. Knowing that there is a limit to the amount of side slip an aircraft can handle, having a slope in which engineers can use to determine the range of sideslip and sideforce the Aircraft can handle is important. For this part of the analysis we are only concerned about the sideforce due to wind vectors found at cruise since we can't provide rudder input as required by our rudder fixed condition. This is why there are no terms in the code inregards to engine out or crosswind conditions since they require rudder input. 
+
+![](Imgs/SideSlip.PNG)  ![](Imgs/SideForceGrad.PNG) 
+
+Fig 8. (LHS) Perkins and Hage, S&C Text Book page 316 
+
+Fig 9. (RHS) Flight Dynamics Principles by Micheal V. Cook pg 352
+</details>
+
+<details>
+
+<summary>8. Directional Stability</summary>
+
+Objective: Determine the Directional Stability Slope (per deg) to remain at equilibrium with zero sideslip with rudder fixed stability. 
+
+Details: Inregards to the rudder fixed condition the only terms used for calculations in this section are inregards to the Wing, Wing-Body, VT, and Propeller. The wing term is the sum of two hidden terms, corresponding to it's dihedral and sweep angles. Dihedral has a stabalizing effect on the planes rolling moment. Sweep increase the stabality affect of the dihedral when sideslipping since the local relative wind will see a weaker downward wind, signifying a weaker downwash. This can be seen in the figure below.
+
+  ![](Imgs/AirfoilDownWash.PNG)  ![](Imgs/PropEffect.PNG) 
+
+Fig 10. Fundemental of Aerodynamics by John D. Anderson pg 429
+
+Fig 11. Perkins and Hage, S&C Text Book page 328 
+</details>
+
+
+<details>
+
+<summary>9. Lateral Stability</summary>
+
+  Objective: Determine the Lateral Stability Slope (per deg) to remain at a wings leveled position stick fixed condition.
+
+  Details: Lateral stability deals with the aircrafts rolling moment and trying to maintain it at static equilibrium. For lateral stability there are 3 basic terms being the Wing, Wing-Body, and VT term. The wing term in this case contains four hidden terms attributed to the wing's Sweep, Aspect Ratio, Twist, and Dihedral. The purpose of dihedral and sweep are the same as mentioned under the 'Directional Stability' section. The reason aspect ratio is taken into account is that wings with higher aspect ratios have a higher moment of inertia limiting the amount of angular velocity it can obtain. Indicating the aspect ratio and manuverability have an inverse relationship. Moving onto twist, most planes have their wings twisted negatively (washout) so that when the aircraft stalls, the ailerons will still be able to provide lateral control. It also helps in reducing induced drag that is produced the vortices that the wings generate, which in turn gives the aircraft more stability due to a decrease in the amount of external forces its experiencing.
+
+ ![](Imgs/DihedralEfffects.PNG)
+
+ Fig 12. Perkins and Hage, S&C Text Book page 343
 </details>
