@@ -315,7 +315,7 @@ fprintf('\nGilruth and White''s Method:\n')
 fprintf('Cm_alpha using G&W method for Cmalpha_f: %.4f\n', CmAlpha_GW*(pi/180));
 fprintf('The Nuetral Point using G&W method for Cmalpha_f: %.4f\n', No_GW);
 
-fprintf('')
+fprintf('\nNomarl Linearized C_L_alpha Eq\n')
 fprintf('C_L_alpha for a glider Model 18 configuration is: %.4f per deg\n', C_L_alpha);
 
 %% Power Stability Calculations
