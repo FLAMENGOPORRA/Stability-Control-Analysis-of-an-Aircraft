@@ -6,8 +6,7 @@
 The source code contained herein was developed for a stability and control project at 
 Embry-Riddle Aeronautical University for Professor Glenn P. Greiner, by Jose A. Rocha-Puscar, 
 an undergraduate student of Aerospace Engineering at the Daytona Beach Campus. Copyright 2024. 
-All rights reserved. Other students in the group who did not contribute to the code are 
-Richard Heath, Dara Metz, and Brian Clavelo.
+All rights reserved.
 
 Although due care has been taken to present accurate programs, this software is provided "as is" 
 WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED 
