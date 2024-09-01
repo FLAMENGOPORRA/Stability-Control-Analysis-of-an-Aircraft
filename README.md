@@ -79,7 +79,7 @@ Fig 5. Perkins and Hage, S&C Text Book page 247
 
 Objective: Determine the new stick-fixed neutral points for the windmilling power and full power case.
 
-Details: In section 5, it was mentioned that as we turn on and increase the power, the neutral points will tend to move forward along the aircraft's Mean Aerodynamic Chord (MAC). Another effect is the increase in downwash at the HT if it is within the streamline tube of the propeller slipstream or jet wash (is not streamline tube). Knowing where the neutral point is at different power settings helps the engineer determine how the fuel system and its management system should be designed. The reason is that displacing the fuel in the aircraft allows the CG to shift to the appropriate location during different phases of flight or flight conditions.
+Details: In section 5, it was mentioned that as we turn on and increase the power, the neutral points will tend to move forward along the aircraft's Mean Aerodynamic Chord (MAC). Another effect is the increase in downwash at the HT if it is within the streamline tube of the propeller slipstream or jet wash (is not streamline tube). Knowing where the neutral point is at different power settings helps the engineer determine how the fuel management system should be designed. The reason is that displacing the fuel in the aircraft allows the CG to shift to the appropriate location during different phases of flight or flight conditions.
 ![](Imgs/ImmersedTop.PNG) 
 
 Fig 6. Prof. Greiner's Notes
