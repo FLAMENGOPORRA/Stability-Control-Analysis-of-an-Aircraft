@@ -133,3 +133,18 @@ Fig 11. Perkins and Hage, S&C Text Book page 328
 
  Fig 12. Perkins and Hage, S&C Text Book page 343
 </details>
+
+
+<details>
+  
+<summary>10. References</summary>
+
+1. Perkins, C. D., & Hage, R. E. (1949). Airplane performance, stability and control. John Wiley & Sons.
+
+2. Anderson, J. D. (2020). Fundamentals of Aerodynamics (Sixth Edition).
+
+3. Cook, M. V. (2012). Flight dynamics principles: A Linear Systems Approach to Aircraft Stability and Control. Butterworth-Heinemann.
+
+4. ERAU Prof. Greiner Handmade Notes 
+  
+</details>
